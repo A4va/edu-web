@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+
+    <link rel="shortcut icon" href="images/BrainFace.png" type="image/x-icon">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <span class="up"><i class="fa-solid fa-arrow-up-long"></i></span>
+    
+<!-- header section starts  -->
+
+<header class="header" id="headerId">
+
+    <a href="home.html" class="logo">
+        <img src="images/BrainFace.png" alt="" class="image">
+        <img src="images/BrainFaceSleep.png" alt="" class="image-hover">
+        
+    </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <nav id="clickNavbar" class="navbar">
+        <ul class="showNavbar">
+            <li><a href="home.html">home</a></li>
+            <li><a id="clickCourses">courses 
+                <i class="fa-solid fa-angle-down"></i>
+            </a>
+                <ul class="showCourses">
+                        
+                    <li><a href="islamic.html">
+                        <img src="images/Islamic.png" alt="">
+                        Islamic</a>
+                    </li>
+
+                    <li><a href="Language.html">
+                        <img src="images/Language.png" alt="">
+                        Language</a>
+                    </li>
+
+                    <li><a href="Computer_Science.html">
+                        <img src="images/ComputerScience.png" alt="">
+                        Computer Science</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a id="clickPages">pages 
+                <i class="fa-solid fa-angle-down"></i>
+            </a>
+                <ul class="showPages">
+                    <li><a href="teachers.html">teachers</a></li>
+                    <li><a href="blog.html">blogs</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+<!-- header section ends -->
+
+<section class="heading">
+    <h3>Computer Science</h3>
+    <p> <a href="home.html">home 
+        <i class="fa-solid fa-angles-right"></i>
+    </a> Computer Science </p>
+</section>
+
+
+    <nav class="nav-btn">
+        <ul class="tabs">
+            <li data-cont=".pageOne" class="tab is-active">
+                <a>categories</a>
+            </li>
+            <li data-cont=".pageTwo" class="tab">
+                <a>videos</a>
+            </li>
+            <li data-cont=".pageThree" class="tab">
+                <a>books</a>
+            </li>
+            <li data-cont=".pageFour" class="tab">
+                <a>tools</a>
+            </li>
+            <li data-cont=".pageFive" class="tab">
+                <a>Websites</a>
+        </ul>
+    </nav>
+
+
+<!-- course-1 section starts  -->
+
+
+    <section class="pages">
+
+        <div class="pageOne">
+            <div class="courses">
+                <div class="box">
+                    <img src="images/coding.png" alt="">
+                    <h3>programming Language</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            
+                <div class="box">
+                    <img src="images/web-development.png" alt="">
+                    <h3>web development</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            
+                <div class="box">
+                    <img src="images/graphic-design.png" alt="">
+                    <h3>graphic design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pageTwo">
+            <section class="course-vid">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/6QAELgirvjs/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCf_Az0D0kKIqg10xDDEkVYCXuFaQ" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="spans">
+                            <span>Web Development</span> <span>AR</span>
+                        </div>
+                        <h3>learn HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quam.</p>
+                        <a href="playlist.html" id="PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji" onclick="setVal(this.id)" class="btn">Watch Playlist</a>
+                        <div class="icons">
+                            <a href="#"> <i class="fa-brands fa-youtube"></i> 37 videos </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 12 hours </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/X1ulCwyhCVM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDkC-vNrtKaa-y2FSGQ9oGsv4XKdg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="spans">
+                            <span>Web Development</span> <span>AR</span>
+                        </div>
+                        <h3>learn CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quam.</p>
+                        <a href="playlist.html" id="PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe" onclick="setVal(this.id)" class="btn">Watch Playlist</a>
+                        <div class="icons">
+                            <a href="#"> <i class="fa-brands fa-youtube"></i> 50 videos </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 12 hours </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="https://academy.hsoub.com/learn/assets/images/courses/computer-science.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="spans">
+                            <span>Computer Science</span> <span>AR</span>
+                        </div>
+                        <h3>learn computer science</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quam.</p>
+                        <a href="https://academy.hsoub.com/learn/computer-science/#AboutCourse" target="_blank" class="btn">Watch Playlist</a>
+                        <div class="icons">
+                            <a href="#"> <i class="fa-brands fa-youtube"></i> 55 videos </a>
+                            <a href="#"> <i class="fas fa-clock"></i> 18 hours </a>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            </section>
+        </div>
+
+        <div class="pageThree">
+
+            <div class="bookshelf">
+                <div class="flexbox">
+        
+                    <div class="flexbook">
+                            <img src="https://assets.website-files.com/5f4bb8e34bc82700bda2f385/602dcfa6fc71845dd8a47177_J7foXcotb1GBseVSeynZKMj9LGu8PRho6VK2Fpgwe0jzNWFEP9xUas2s_iWjJHhkHlgxZKzZqi_ShZit8tQcyfo66CaeJgyHhn96Gb6qV6M-q9OQ5qBIx3VjQjrpDCNXXM99kicl.jpeg" alt="">
+                            <div class="overlay">
+                                <div class="content-book">
+                                </div>
+                            </div>      
+                    </div>
+        
+                    <div class="flexbook">
+                        <img src="https://assets.website-files.com/5f4bb8e34bc82700bda2f385/602dcfa6fc71845dd8a47177_J7foXcotb1GBseVSeynZKMj9LGu8PRho6VK2Fpgwe0jzNWFEP9xUas2s_iWjJHhkHlgxZKzZqi_ShZit8tQcyfo66CaeJgyHhn96Gb6qV6M-q9OQ5qBIx3VjQjrpDCNXXM99kicl.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="content-book">
+                            </div>
+                        </div>      
+                </div>
+        
+                <div class="flexbook">
+                    <img src="https://assets.website-files.com/5f4bb8e34bc82700bda2f385/602dcfa6fc71845dd8a47177_J7foXcotb1GBseVSeynZKMj9LGu8PRho6VK2Fpgwe0jzNWFEP9xUas2s_iWjJHhkHlgxZKzZqi_ShZit8tQcyfo66CaeJgyHhn96Gb6qV6M-q9OQ5qBIx3VjQjrpDCNXXM99kicl.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="content-book">
+                        </div>
+                    </div>      
+            </div>
+                
+                </div>
+                <div class="shelfparent"><div class="shelf"></div></div>
+            </div>
+
+        </div>
+
+        <div class="pageFour">
+            <div class="courses">
+                <div class="box">
+                    <img src="images/VScode.png" alt="">
+                    <h3>visual studio code</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="https://code.visualstudio.com/download" target="_blank" class="btn">download</a>
+                </div>
+            
+                <div class="box">
+                    <img src="images/figma.png" alt="">
+                    <h3>figma</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="https://www.figma.com/downloads/" target="_blank" class="btn">download</a>
+                </div>
+            
+                <div class="box">
+                    <img src="images/xampp.png" alt="">
+                    <h3>XAMPP</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="https://www.apachefriends.org/download.html" target="_blank" class="btn">download</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pageFive">
+            <div class="courses">
+                <div class="box">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLTHKPaCC8X70K4JHAeg_05JFL98z_wbnAPzWrgKIg=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <h3>elzero</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="https://elzero.org/" target="_blank" class="btn">visit the website</a>
+                </div>
+            
+                <div class="box">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLTKzNhlyxQDZtL635j0cMwvS7gny3mqDzWj18xe=s176-c-k-c0x00ffffff-no-rj" alt="">
+                    <h3>Hsoub Academy</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="https://academy.hsoub.com/" target="_blank" class="btn">visit the website</a>
+                </div>
+            
+                <div class="box">
+                    <img src="https://harmash.com/assets/images/harmash-logo.PNG?v=WT8T6ehJTHC1SKflAMzUvolwHzEunAsBmzUaMvtZlg8" alt="">
+                    <h3>harmash</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, earum.</p>
+                    <a href="https://harmash.com/" target="_blank" class="btn">visit the website</a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+<!-- course-1 section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>explore</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="islamic.html"> <i class="fas fa-arrow-right"></i> islamic </a>
+            <a href="Language.html"> <i class="fas fa-arrow-right"></i>Language </a>
+            <a href="Computer_Science.html"> <i class="fas fa-arrow-right"></i> computer science </a>
+            <a href="teachers.html"> <i class="fas fa-arrow-right"></i> teachers </a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog </a>
+        </div>
+
+        <div class="box">
+            <h3>courses</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> quran science </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> hadith science </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arabic </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> english </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> japanese </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> programming</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> web development</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> graphic design</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> feedback </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> help center </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-github"></i> github </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> <p>Copyright Made With <span class="fa-solid fa-heart"></span> For Graduation Project © 2022 </p> </div>
+
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    function setVal(valX){
+        localStorage.setItem("playlist",valX)
+
+        location.href = "playlist.html"
+    }
+</script>
+
+</body>
+</html>
